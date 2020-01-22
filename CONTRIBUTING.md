@@ -9,4 +9,6 @@ information to effectively respond to your bug report or contribution.
 
 ## Reporting Bugs/Feature Requests
 
-We welcome you
+We welcome you to use the GitHub issue tracker to report bugs or suggest features.
+
+When filing an issue, please check [existing open](
