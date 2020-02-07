@@ -11,4 +11,4 @@ information to effectively respond to your bug report or contribution.
 
 We welcome you to use the GitHub issue tracker to report bugs or suggest features.
 
-When filing an issue, please check [existing open](https://github.com/awslabs/aws-crypto-policy-compliance-checker/issues), or [recently closed](https://github.com/a
+When filing an issue, please check [existing open](https://github.com/awslabs/aws-crypto-policy-compliance-checker/issues), or [recently closed](https://github.com/awslabs/aws-crypto-policy-compliance-checker/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aclosed%20), issues to make
