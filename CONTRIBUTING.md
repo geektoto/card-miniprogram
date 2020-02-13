@@ -15,4 +15,6 @@ When filing an issue, please check [existing open](https://github.com/awslabs/aw
 reported the issue. Please try to include as much information as you can. Details like these are incredibly useful:
 
 * A reproducible test case or series of steps
-* Th
+* The version of our code being used
+* Any modifications you've made relevant to the bug
+* Anything unusual about you
