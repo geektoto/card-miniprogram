@@ -21,4 +21,6 @@ reported the issue. Please try to include as much information as you can. Detail
 
 
 ## Contributing via Pull Requests
-Contributions via pull requests a
+Contributions via pull requests are much appreciated. Before sending us a pull request, please ensure that:
+
+1. You are working agai
