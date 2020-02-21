@@ -28,3 +28,6 @@ Contributions via pull requests are much appreciated. Before sending us a pull r
 3. You open an issue to discuss any significant work - we would hate for your time to be wasted.
 
 To send us a pull request, please:
+
+1. Fork the repository.
+2. Modify the source; please focus on the specific change you are contributin
