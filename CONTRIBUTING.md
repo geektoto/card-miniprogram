@@ -41,4 +41,4 @@ GitHub provides additional document on [forking a repository](https://help.githu
 
 
 ## Finding contributions to work on
-Looking at the existing issues is a great way 
+Looking at the existing issues is a great way to find something to contribute on. As our projects, by default, use the default GitHub issue labels (enh
