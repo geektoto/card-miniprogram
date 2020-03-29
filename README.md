@@ -5,4 +5,5 @@ A Java compiler plugin that checks that no weak cipher algorithms are used with 
 ### How does it work?
 
 The checker builds on the Checker Framework (www.checkerframework.org), an open-source tool for building extensions to
-the Java compiler's typechecker. A typechecker is perfect for checking a com
+the Java compiler's typechecker. A typechecker is perfect for checking a compliance rule, because typecheckers are
+*sound*, meaning that they never miss errors, but might report false positives. In othe
