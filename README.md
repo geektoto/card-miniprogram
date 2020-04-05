@@ -10,3 +10,5 @@ the Java compiler's typechecker. A typechecker is perfect for checking a complia
 over-approximates what your program might do at runtime, so if the checker reports that the code is safe, you can be
 confident that it is. If the checker issues an error, there are two possibilities:
 
+1. there is a real issue: you are using a crypto algorithm that is not whitelisted in the stubs folder, OR
+2. the type s
