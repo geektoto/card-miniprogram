@@ -11,4 +11,5 @@ over-approximates what your program might do at runtime, so if the checker repor
 confident that it is. If the checker issues an error, there are two possibilities:
 
 1. there is a real issue: you are using a crypto algorithm that is not whitelisted in the stubs folder, OR
-2. the type s
+2. the type system cannot understand what algorithm you are trying to use. This happens if you load the algorithm
+fr
