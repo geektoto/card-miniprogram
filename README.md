@@ -17,4 +17,4 @@ described in the section below.
 
 ## How do I run it?
 
-The CheckerFramework provides different build system integra
+The CheckerFramework provides different build system integrations that are described on their wiki. For a quick start, try running it on a single file
