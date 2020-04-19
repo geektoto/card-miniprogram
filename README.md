@@ -12,4 +12,9 @@ confident that it is. If the checker issues an error, there are two possibilitie
 
 1. there is a real issue: you are using a crypto algorithm that is not whitelisted in the stubs folder, OR
 2. the type system cannot understand what algorithm you are trying to use. This happens if you load the algorithm
-from a file, or wrap it in enums. Complicated code like this is usually discouraged, but you can add an excep
+from a file, or wrap it in enums. Complicated code like this is usually discouraged, but you can add an exception as
+described in the section below.
+
+## How do I run it?
+
+The CheckerFramework provides different build system integra
