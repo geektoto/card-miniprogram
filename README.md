@@ -17,4 +17,10 @@ described in the section below.
 
 ## How do I run it?
 
-The CheckerFramework provides different build system integrations that are described on their wiki. For a quick start, try running it on a single file
+The CheckerFramework provides different build system integrations that are described on their wiki. For a quick start, try running it on a single file:
+
+```
+./gradlew assemble
+./gradlew copyDependencies
+
+javac -cp ./build/libs/aws-crypto-policy-compliance-checker.jar:depen
