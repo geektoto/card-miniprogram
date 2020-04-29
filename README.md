@@ -29,4 +29,5 @@ javac -cp ./build/libs/aws-crypto-policy-compliance-checker.jar:dependencies/che
 The output should read sth like:
 
 ```
-Note: StubParser: parsing stub file statically-executable
+Note: StubParser: parsing stub file statically-executable.astub
+Note: StubParser: parsing stub file /Users/schaef/workspace/crypto/src/CryptoPolicyComp
