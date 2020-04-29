@@ -23,4 +23,10 @@ The CheckerFramework provides different build system integrations that are descr
 ./gradlew assemble
 ./gradlew copyDependencies
 
-javac -cp ./build/libs/aws-crypto-policy-compliance-checker.jar:dependencies/checker-3.1.1.jar -processor com.amazon.checkerframework.cryptopolicy.CryptoPolicyComplianceChecker -AstubDebug -Astubs=stubs/java.security.astub:stubs/javax.crypto.astub tests/crypto-policy/Cr
+javac -cp ./build/libs/aws-crypto-policy-compliance-checker.jar:dependencies/checker-3.1.1.jar -processor com.amazon.checkerframework.cryptopolicy.CryptoPolicyComplianceChecker -AstubDebug -Astubs=stubs/java.security.astub:stubs/javax.crypto.astub tests/crypto-policy/CryptoTests.java
+```
+
+The output should read sth like:
+
+```
+Note: StubParser: parsing stub file statically-executable
