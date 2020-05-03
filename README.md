@@ -30,4 +30,5 @@ The output should read sth like:
 
 ```
 Note: StubParser: parsing stub file statically-executable.astub
-Note: StubParser: parsing stub file /Users/schaef/workspace/crypto/src/CryptoPolicyComp
+Note: StubParser: parsing stub file /Users/schaef/workspace/crypto/src/CryptoPolicyComplianceChecker/stubs/java.security.astub
+Note: StubParser: parsing stub file /Users/schaef/wor
