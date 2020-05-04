@@ -32,4 +32,5 @@ The output should read sth like:
 Note: StubParser: parsing stub file statically-executable.astub
 Note: StubParser: parsing stub file /Users/schaef/workspace/crypto/src/CryptoPolicyComplianceChecker/stubs/java.security.astub
 Note: StubParser: parsing stub file /Users/schaef/workspace/crypto/src/CryptoPolicyComplianceChecker/stubs/javax.crypto.astub
-warning: You do not seem to be using the distributed annotated JDK.  To fix the problem, supply javac an argument like:  -Xbootclasspath/p:.../checker/dist/ .  Curren
+warning: You do not seem to be using the distributed annotated JDK.  To fix the problem, supply javac an argument like:  -Xbootclasspath/p:.../checker/dist/ .  Currently using: jdk8.jar
+tests/crypto-policy/CryptoTests.java:39: error: [bad.crypto.issue.url] Please provide a valid URL that 
