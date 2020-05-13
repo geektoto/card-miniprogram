@@ -38,4 +38,4 @@ tests/crypto-policy/CryptoTests.java:39: error: [bad.crypto.issue.url] Please pr
                 ^
   	badurl
   is not a valid URL.
-tests/crypto-policy/CryptoTests.java:23: error: [crypto.policy.violation] Used crypt
+tests/crypto-policy/CryptoTests.java:23: error: [crypto.policy.violation] Used crypto algorithm: DEFAULT/PADDING is not strong enough. Consider using a stronger algorithm such as RSA/ECB/OAEPP
