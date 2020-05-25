@@ -43,4 +43,5 @@ tests/crypto-policy/CryptoTests.java:23: error: [crypto.policy.violation] Used c
                            ^
 tests/crypto-policy/CryptoTests.java:26: error: [crypto.policy.violation] Used crypto algorithm: DES is not strong enough. Consider using a stronger algorithm such as RSA/ECB/OAEPPadding.
         Cipher.getInstance("des");
-  
+                           ^
+tests/crypto-policy/CryptoTests.java:29: error: [crypto.policy.violation]
