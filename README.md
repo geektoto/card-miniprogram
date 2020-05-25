@@ -41,4 +41,6 @@ tests/crypto-policy/CryptoTests.java:39: error: [bad.crypto.issue.url] Please pr
 tests/crypto-policy/CryptoTests.java:23: error: [crypto.policy.violation] Used crypto algorithm: DEFAULT/PADDING is not strong enough. Consider using a stronger algorithm such as RSA/ECB/OAEPPadding.
         Cipher.getInstance("Default/padding", "fake provider");
                            ^
-tests/crypto-policy/CryptoTests.java:26: error: [crypto.policy.violation] Used crypto algorithm: DES is not s
+tests/crypto-policy/CryptoTests.java:26: error: [crypto.policy.violation] Used crypto algorithm: DES is not strong enough. Consider using a stronger algorithm such as RSA/ECB/OAEPPadding.
+        Cipher.getInstance("des");
+  
