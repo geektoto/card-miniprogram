@@ -52,4 +52,6 @@ tests/crypto-policy/CryptoTests.java:29: error: [crypto.policy.violation] Used c
 
 ```
 
-The first few lines are emitted by the `-AstubDebug`,
+The first few lines are emitted by the `-AstubDebug`, which you can omit if you are certain that your stubs are
+correct.
+You can add more stub files to the
