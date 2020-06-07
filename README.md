@@ -57,4 +57,5 @@ correct.
 You can add more stub files to the `-Astubs` parameter as needed.
 
 ## What Ciphers are approved
-The list of approved ciphers can be found as annotatio
+The list of approved ciphers can be found as annotations in the `stubs` folder. The stub files are only an example.
+Strengthen or weaken the white-list according to the policy or
