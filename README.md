@@ -62,4 +62,5 @@ Strengthen or weaken the white-list according to the policy or compliance regime
 Remember to adjust the warning messages in `src/main/resources/com/amazon/checkerframework/cryptopolicy/messages.properties`
 accordingly (not that messages in this file have to be in a single line and line breaks have to be encoded as `\n`.
 
-Learn more on how to write stub 
+Learn more on how to write stub files
+from the [CheckerFramework documentation](https://checkerframework.org/manual/#stub). We use
