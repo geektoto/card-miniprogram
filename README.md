@@ -60,4 +60,6 @@ You can add more stub files to the `-Astubs` parameter as needed.
 The list of approved ciphers can be found as annotations in the `stubs` folder. The stub files are only an example.
 Strengthen or weaken the white-list according to the policy or compliance regime that you want to follow.
 Remember to adjust the warning messages in `src/main/resources/com/amazon/checkerframework/cryptopolicy/messages.properties`
-accordingly (not that messages in this f
+accordingly (not that messages in this file have to be in a single line and line breaks have to be encoded as `\n`.
+
+Learn more on how to write stub 
