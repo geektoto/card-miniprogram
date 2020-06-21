@@ -63,4 +63,8 @@ Remember to adjust the warning messages in `src/main/resources/com/amazon/checke
 accordingly (not that messages in this file have to be in a single line and line breaks have to be encoded as `\n`.
 
 Learn more on how to write stub files
-from the [CheckerFramework documentation](https://checkerframework.org/manual/#stub). We use
+from the [CheckerFramework documentation](https://checkerframework.org/manual/#stub). We use the
+`@CryptoWhiteListed` annotation which takes an array of regular expressions as argument. E.g.
+
+```
+@Cry
