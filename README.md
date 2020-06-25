@@ -67,4 +67,7 @@ from the [CheckerFramework documentation](https://checkerframework.org/manual/#s
 `@CryptoWhiteListed` annotation which takes an array of regular expressions as argument. E.g.
 
 ```
-@Cry
+@CryptoWhiteListed(value={"HmacSHA-?(1.*|2.*|384|512.*)"}) String arg
+```
+
+To white-list all values that match H
