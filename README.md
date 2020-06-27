@@ -70,4 +70,7 @@ from the [CheckerFramework documentation](https://checkerframework.org/manual/#s
 @CryptoWhiteListed(value={"HmacSHA-?(1.*|2.*|384|512.*)"}) String arg
 ```
 
-To white-list all values that match H
+To white-list all values that match HmacSHA-1.*, HmacSHA-2.*, etc, or
+
+```
+@CryptoWhiteListed(value={"HmacSHA-?(1.*|2.*|384|512.*)"}, warnOn={"HmacSHA-?1"
