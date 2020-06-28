@@ -76,4 +76,7 @@ To white-list all values that match HmacSHA-1.*, HmacSHA-2.*, etc, or
 @CryptoWhiteListed(value={"HmacSHA-?(1.*|2.*|384|512.*)"}, warnOn={"HmacSHA-?1"}) String arg
 ```
 
-To white-list the same set of string values, but emit a compiler warning for HmacSHA1 and H
+To white-list the same set of string values, but emit a compiler warning for HmacSHA1 and HmacSHA-1.
+Any algorithm passed as `arg` that is not part of the white-list will cause an error.
+
+### H
