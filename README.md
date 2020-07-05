@@ -81,4 +81,5 @@ Any algorithm passed as `arg` that is not part of the white-list will cause an e
 
 ### How do I add an exception?
 
-If you use a non-whitelisted algorithm and you are sure that it is sa
+If you use a non-whitelisted algorithm and you are sure that it is safe, you can add
+a `@SuppressCryptoWarning(issue = "url-to-issue")` to your code. Note that the `url-to-issue` has
