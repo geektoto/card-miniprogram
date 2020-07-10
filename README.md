@@ -88,4 +88,4 @@ a valid URL to a issue where you got approval to use the algorithm.
 
 ### Whitelisted Algorithms
 The white-list in this repository is only an example. We do not suggest that all algorithms in the list a strong, or
-that
+that other are not. Also, the stub files only cover Java crypto classes. If you want to use this type system wit
