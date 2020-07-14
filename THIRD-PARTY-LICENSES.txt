@@ -1,1 +1,7 @@
-** gradle-wrapper; version 4.10.2 -- https://docs.
+** gradle-wrapper; version 4.10.2 -- https://docs.gradle.org/current/userguide/gradle_wrapper.html
+
+Apache License
+
+Version 2.0, January 2004
+
+http://www.apache.org/licen
