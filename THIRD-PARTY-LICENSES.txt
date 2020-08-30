@@ -57,4 +57,5 @@ below).
 
 
 
-"Derivative Works" shall mean any work, whether in 
+"Derivative Works" shall mean any work, whether in Source or Object form, that
+is based on (or derived from) the Work and for which the editorial revisions,
