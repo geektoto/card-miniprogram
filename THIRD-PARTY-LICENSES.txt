@@ -72,4 +72,5 @@ version of the Work and any modifications or additions to that Work or
 Derivative Works thereof, that is intentionally submitted to Licensor for
 inclusion in the Work by the copyright owner or by an individual or Legal
 Entity authorized to submit on behalf of the copyright owner. For the purposes
-of this defi
+of this definition, "submitted" means any form of electronic, verbal, or
+written communication sent to the Licensor or its
