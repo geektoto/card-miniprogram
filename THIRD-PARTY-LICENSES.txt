@@ -69,4 +69,5 @@ thereof.
 
 "Contribution" shall mean any work of authorship, including the original
 version of the Work and any modifications or additions to that Work or
-Deriva
+Derivative Works thereof, that is intentionally submitted to Licensor for
+inclusion in the Work by the copyright o
