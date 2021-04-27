@@ -235,4 +235,7 @@ CONSTITUTES RECIPIENT'S ACCEPTANCE OF THIS AGREEMENT.
 
 1. DEFINITIONS
 
-"Contribution" 
+"Contribution" means:
+
+a) in the case of the initial Contributor, the initial code and
+documentation distributed u
