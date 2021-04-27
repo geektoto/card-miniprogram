@@ -223,4 +223,10 @@ limitations under the License.
 ** junit; version 4.12 -- https://junit.org/junit4/
 No copyright notice
 
-Source code is available at: https://github.co
+Source code is available at: https://github.com/junit-team/junit4/releases/tag/r4.12
+
+JUnit
+
+Eclipse Public License - v 1.0
+
+THE ACCOMPANYING PROGRAM IS PROV
