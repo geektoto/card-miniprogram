@@ -243,4 +243,7 @@ b) in the case of each subsequent Contributor:
 
 i) changes to the Program, and
 
-ii) addit
+ii) additions to the Program;
+
+where such changes and/or additions to the Program originate from and are
+distributed by that particular Contrib
