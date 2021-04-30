@@ -246,4 +246,5 @@ i) changes to the Program, and
 ii) additions to the Program;
 
 where such changes and/or additions to the Program originate from and are
-distributed by that particular Contrib
+distributed by that particular Contributor. A Contribution 'originates' from a
+Contributor if it was added to the Program by such Contributor itself o
