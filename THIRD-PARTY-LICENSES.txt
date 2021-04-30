@@ -254,4 +254,7 @@ the Program which: (i) are separate modules of software distributed in
 conjunction with the Program under their own license agreement, and (ii) are
 not derivative works of the Program. 
 
-"Contributor" means any person or entity that dis
+"Contributor" means any person or entity that distributes the Program.
+
+"Licensed Patents " mean patent claims licensable by a Contributor which are
+necessarily infrin
