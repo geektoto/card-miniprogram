@@ -263,4 +263,9 @@ combined with the Program.
 "Program" means the Contributions distributed in accordance with this
 Agreement.
 
-"Recipient" means anyone who receives the Program under this A
+"Recipient" means anyone who receives the Program under this Agreement,
+including all Contributors.
+
+2. GRANT OF RIGHTS
+
+a) Subject to the terms of this Agreement, each Co
