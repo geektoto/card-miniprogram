@@ -268,4 +268,6 @@ including all Contributors.
 
 2. GRANT OF RIGHTS
 
-a) Subject to the terms of this Agreement, each Co
+a) Subject to the terms of this Agreement, each Contributor hereby grants
+Recipient a non-exclusive, worldwide, royalty-free copyright license to
+reproduce, prepare derivat
