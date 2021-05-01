@@ -260,4 +260,7 @@ not derivative works of the Program.
 necessarily infringed by the use or sale of its Contribution alone or when
 combined with the Program.
 
-"Program" means the Contributions 
+"Program" means the Contributions distributed in accordance with this
+Agreement.
+
+"Recipient" means anyone who receives the Program under this A
