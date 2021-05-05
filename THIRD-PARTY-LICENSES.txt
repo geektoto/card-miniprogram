@@ -279,4 +279,5 @@ Recipient a non-exclusive, worldwide, royalty-free patent license under
 Licensed Patents to make, use, sell, offer to sell, import and otherwise
 transfer the Contribution of such Contributor, if any, in source code and
 object code form. This patent license shall apply to the combination of the
-C
+Contribution and the Program if, at the time the Contribution is added by the
+Contributor, such addition of the
