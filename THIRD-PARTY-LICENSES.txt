@@ -280,4 +280,5 @@ Licensed Patents to make, use, sell, offer to sell, import and otherwise
 transfer the Contribution of such Contributor, if any, in source code and
 object code form. This patent license shall apply to the combination of the
 Contribution and the Program if, at the time the Contribution is added by the
-Contributor, such addition of the
+Contributor, such addition of the Contribution causes such combination to be
+covered by the Licensed Patents. The patent license shall not app
