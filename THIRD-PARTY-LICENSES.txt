@@ -276,4 +276,5 @@ such derivative works, in source code and object code form.
 
 b) Subject to the terms of this Agreement, each Contributor hereby grants
 Recipient a non-exclusive, worldwide, royalty-free patent license under
-Li
+Licensed Patents to make, use, sell, offer to sell, import and otherwise
+transfer the Contribution of such Contribu
