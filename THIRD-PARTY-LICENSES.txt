@@ -295,4 +295,7 @@ exercising the rights and licenses granted hereunder, each Recipient hereby
 assumes sole responsibility to secure any other intellectual property rights
 needed, if any. For example, if a third party patent license is required to
 allow Recipient to distribute the Program, it is Recipient's responsibility to
-acquire that license before distribu
+acquire that license before distributing the Program.
+
+d) Each Contributor represents that to its knowledge it has sufficient
+copyright rights in
