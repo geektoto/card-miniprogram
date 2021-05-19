@@ -293,4 +293,6 @@ any liability to Recipient for claims brought by any other entity based on
 infringement of intellectual property rights or otherwise. As a condition to
 exercising the rights and licenses granted hereunder, each Recipient hereby
 assumes sole responsibility to secure any other intellectual property rights
-needed, if any. For example, if a third party patent license is required
+needed, if any. For example, if a third party patent license is required to
+allow Recipient to distribute the Program, it is Recipient's responsibility to
+acquire that license before distribu
