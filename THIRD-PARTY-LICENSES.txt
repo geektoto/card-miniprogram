@@ -306,4 +306,8 @@ set forth in this Agreement.
 A Contributor may choose to distribute the Program in object code form under
 its own license agreement, provided that:
 
-a) it complies with the te
+a) it complies with the terms and conditions of this Agreement; and
+
+b) its license agreement:
+
+i) effectively disclaims on behalf of
