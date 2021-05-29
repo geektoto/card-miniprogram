@@ -303,4 +303,7 @@ set forth in this Agreement.
 
 3. REQUIREMENTS
 
-A Contributor may choose to distrib
+A Contributor may choose to distribute the Program in object code form under
+its own license agreement, provided that:
+
+a) it complies with the te
