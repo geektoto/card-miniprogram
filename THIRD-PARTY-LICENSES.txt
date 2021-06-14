@@ -310,4 +310,5 @@ a) it complies with the terms and conditions of this Agreement; and
 
 b) its license agreement:
 
-i) effectively disclaims on behalf of
+i) effectively disclaims on behalf of all Contributors all warranties and
+conditions, express and implied, including warranties or cond
