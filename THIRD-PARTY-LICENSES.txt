@@ -315,4 +315,5 @@ conditions, express and implied, including warranties or conditions of title
 and non-infringement, and implied warranties or conditions of merchantability
 and fitness for a particular purpose; 
 
-ii) ef
+ii) effectively excludes on behalf of all Contributors all liability for
+damages, including direct, indirect, speci
