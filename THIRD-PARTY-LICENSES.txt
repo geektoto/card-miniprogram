@@ -322,4 +322,5 @@ damages, such as lost profits;
 iii) states that any provisions which differ from this Agreement are
 offered by that Contributor alone and not by any other party; and
 
-iv) state
+iv) states that source code for the Program is available from such
+Contributor, and informs licensees how to obtain it
