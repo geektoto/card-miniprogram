@@ -323,4 +323,7 @@ iii) states that any provisions which differ from this Agreement are
 offered by that Contributor alone and not by any other party; and
 
 iv) states that source code for the Program is available from such
-Contributor, and informs licensees how to obtain it
+Contributor, and informs licensees how to obtain it in a reasonable manner on
+or through a medium customarily used for software exchange. 
+
+When the Program is made available i
