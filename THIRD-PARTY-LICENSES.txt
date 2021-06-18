@@ -319,4 +319,7 @@ ii) effectively excludes on behalf of all Contributors all liability for
 damages, including direct, indirect, special, incidental and consequential
 damages, such as lost profits; 
 
-iii) states that any provisions which d
+iii) states that any provisions which differ from this Agreement are
+offered by that Contributor alone and not by any other party; and
+
+iv) state
