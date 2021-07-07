@@ -333,4 +333,8 @@ a) it must be made available under this Agreement; and
 b) a copy of this Agreement must be included with each copy of the
 Program. 
 
-Contributors may not remove or alter any 
+Contributors may not remove or alter any copyright notices contained within
+the
+Program.
+
+Each Contributor must identify itself as the originator of
