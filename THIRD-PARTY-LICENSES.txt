@@ -330,4 +330,7 @@ When the Program is made available in source code form:
 
 a) it must be made available under this Agreement; and 
 
-b) a copy of this Agreement 
+b) a copy of this Agreement must be included with each copy of the
+Program. 
+
+Contributors may not remove or alter any 
