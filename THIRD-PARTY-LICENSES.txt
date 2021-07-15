@@ -340,4 +340,8 @@ Program.
 Each Contributor must identify itself as the originator of its Contribution,
 if
 any, in a manner that reasonably allows subsequent Recipients to identify the
-orig
+originator of the Contribution.
+
+4. COMMERCIAL DISTRIBUTION
+
+Commercial distributors of software may accept certain responsibi
