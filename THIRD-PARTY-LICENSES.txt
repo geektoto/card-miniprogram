@@ -346,4 +346,5 @@ originator of the Contribution.
 
 Commercial distributors of software may accept certain responsibilities with
 respect to end users, business partners and the like. While this license is
-intended to fac
+intended to facilitate the commercial use of the Program, the Contributor who
+includes the Program in a commercial product offering sh
