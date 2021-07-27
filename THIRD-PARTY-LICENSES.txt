@@ -351,4 +351,5 @@ includes the Program in a commercial product offering should do so in a manner
 which does not create potential liability for other Contributors. Therefore,
 if
 a Contributor includes the Program in a commercial product offering, such
-Contributor ("Commercial Contributor") her
+Contributor ("Commercial Contributor") hereby agrees to defend and indemnify
+every other Contributor ("Indemnified Contributor") against any 
