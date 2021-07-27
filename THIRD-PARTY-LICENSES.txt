@@ -350,4 +350,5 @@ intended to facilitate the commercial use of the Program, the Contributor who
 includes the Program in a commercial product offering should do so in a manner
 which does not create potential liability for other Contributors. Therefore,
 if
-a Contri
+a Contributor includes the Program in a commercial product offering, such
+Contributor ("Commercial Contributor") her
