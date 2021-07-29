@@ -352,4 +352,8 @@ which does not create potential liability for other Contributors. Therefore,
 if
 a Contributor includes the Program in a commercial product offering, such
 Contributor ("Commercial Contributor") hereby agrees to defend and indemnify
-every other Contributor ("Indemnified Contributor") against any 
+every other Contributor ("Indemnified Contributor") against any losses,
+damages
+and costs (collectively "Losses") arising from claims, lawsuits and other
+legal
+actions brought by
