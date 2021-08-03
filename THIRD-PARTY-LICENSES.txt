@@ -356,4 +356,5 @@ every other Contributor ("Indemnified Contributor") against any losses,
 damages
 and costs (collectively "Losses") arising from claims, lawsuits and other
 legal
-actions brought by
+actions brought by a third party against the Indemnified Contributor to the
+extent caused by the acts or omissions
