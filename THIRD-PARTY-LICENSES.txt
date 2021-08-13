@@ -360,4 +360,5 @@ actions brought by a third party against the Indemnified Contributor to the
 extent caused by the acts or omissions of such Commercial Contributor in
 connection with its distribution of the Program in a commercial product
 offering. The obligations in this section do not apply to any claims or Losses
-relating to any actual or alleged intelle
+relating to any actual or alleged intellectual property infringement. In order
+to qualify, an Indemnified Contributor must: a) promptly notify th
