@@ -365,4 +365,6 @@ to qualify, an Indemnified Contributor must: a) promptly notify the Commercial
 Contributor in writing of such claim, and b) allow the Commercial Contributor
 to control, and cooperate with the Commercial Contributor in, the defense and
 any related settlement negotiations. The Indemnified Contributor may
-partic
+participate in any such claim at its own expense.
+
+For example, a Contributor might include the Program in a commerc
