@@ -370,4 +370,6 @@ participate in any such claim at its own expense.
 For example, a Contributor might include the Program in a commercial product
 offering, Product X. That Contributor is then a Commercial Contributor. If
 that
-Commercial Contributor then ma
+Commercial Contributor then makes performance claims, or offers warranties
+related to Product X, those performance claims and warranties are such
+Commercial Con
