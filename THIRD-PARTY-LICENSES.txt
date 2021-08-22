@@ -367,4 +367,7 @@ to control, and cooperate with the Commercial Contributor in, the defense and
 any related settlement negotiations. The Indemnified Contributor may
 participate in any such claim at its own expense.
 
-For example, a Contributor might include the Program in a commerc
+For example, a Contributor might include the Program in a commercial product
+offering, Product X. That Contributor is then a Commercial Contributor. If
+that
+Commercial Contributor then ma
