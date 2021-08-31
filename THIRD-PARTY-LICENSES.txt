@@ -373,4 +373,6 @@ that
 Commercial Contributor then makes performance claims, or offers warranties
 related to Product X, those performance claims and warranties are such
 Commercial Contributor's responsibility alone. Under this section, the
-Commercial Contributor would have to de
+Commercial Contributor would have to defend claims against the other
+Contributors related to those performance claims and warranties, and if a
+cou
