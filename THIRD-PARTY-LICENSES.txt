@@ -372,4 +372,5 @@ offering, Product X. That Contributor is then a Commercial Contributor. If
 that
 Commercial Contributor then makes performance claims, or offers warranties
 related to Product X, those performance claims and warranties are such
-Commercial Con
+Commercial Contributor's responsibility alone. Under this section, the
+Commercial Contributor would have to de
