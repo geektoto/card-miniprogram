@@ -375,4 +375,6 @@ related to Product X, those performance claims and warranties are such
 Commercial Contributor's responsibility alone. Under this section, the
 Commercial Contributor would have to defend claims against the other
 Contributors related to those performance claims and warranties, and if a
-cou
+court
+requires any other Contributor to pay any damages as a result, the Commercial
+Contributor must pay those damages.
