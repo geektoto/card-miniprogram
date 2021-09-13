@@ -390,4 +390,9 @@ and distributing the Program and assumes all risks associated with its
 exercise
 of rights under this Agreement, including but not limited to the risks and
 costs of program errors, compliance with applicable laws, damage to or loss of
-data, programs or equipmen
+data, programs or equipment, and unavailability or interruption of
+operations.
+
+6. DISCLAIMER OF LIABILITY
+
+EXCEPT AS EXPRESSLY SET FOR
