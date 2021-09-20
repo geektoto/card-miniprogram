@@ -405,4 +405,8 @@ WAY OUT OF THE USE OR DISTRIBUTION OF THE PROGRAM OR THE EXERCISE OF ANY
 RIGHTS
 GRANTED HEREUNDER, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
 
-7. G
+7. GENERAL
+
+If any provision of this Agreement is invalid or unenforceable under
+applicable
+law, it shall not affect
