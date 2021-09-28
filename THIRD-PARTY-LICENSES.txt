@@ -417,4 +417,6 @@ provision shall be reformed to the minimum extent necessary to make such
 provision valid and enforceable.
 
 If Recipient institutes patent litigation against any
-entity (includin
+entity (including a cross-claim or counterclaim in a lawsuit) alleging that
+the
+Program itself (excluding combinations of the Program with
