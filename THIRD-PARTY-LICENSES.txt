@@ -414,4 +414,7 @@ the
 terms of this Agreement, and without further action by the parties hereto,
 such
 provision shall be reformed to the minimum extent necessary to make such
-pro
+provision valid and enforceable.
+
+If Recipient institutes patent litigation against any
+entity (includin
