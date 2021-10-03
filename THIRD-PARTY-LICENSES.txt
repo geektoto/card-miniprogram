@@ -426,4 +426,5 @@ filed.
 
 All Recipient's rights under this Agreement shall terminate if it fails to
 comply with any of the material terms or conditions of this Agreement and does
-not cu
+not cure such failure in a reasonable period of time after becoming aware of
+such noncompliance. If all Recipient's right
