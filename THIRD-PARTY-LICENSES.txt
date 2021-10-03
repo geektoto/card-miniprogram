@@ -419,4 +419,6 @@ provision valid and enforceable.
 If Recipient institutes patent litigation against any
 entity (including a cross-claim or counterclaim in a lawsuit) alleging that
 the
-Program itself (excluding combinations of the Program with
+Program itself (excluding combinations of the Program with other software or
+hardware) infringes such Recipient's patent(s), then such Recipient's rights
+granted under Sec
