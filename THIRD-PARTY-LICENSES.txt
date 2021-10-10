@@ -440,4 +440,6 @@ publish new versions (including revisions) of this Agreement from time to
 time.
 No one other than the Agreement Steward has the right to modify this
 Agreement.
-The Eclipse Foundation is the initial A
+The Eclipse Foundation is the initial Agreement Steward. The Eclipse Foundation
+may assign the responsibility to
+serve as the Agreement Steward to a suitable separate ent
