@@ -435,4 +435,6 @@ and survive.
 
 Everyone is permitted to copy and distribute copies of this Agreement, but in
 order to avoid inconsistency the Agreement is copyrighted and may only be
-modified in the following manner. The Agre
+modified in the following manner. The Agreement Steward reserves the right to
+publish new versions (including revisions) of this Agreement from time to
+time.
