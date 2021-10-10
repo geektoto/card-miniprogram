@@ -434,4 +434,5 @@ and any licenses granted by Recipient relating to the Program shall continue
 and survive.
 
 Everyone is permitted to copy and distribute copies of this Agreement, but in
-o
+order to avoid inconsistency the Agreement is copyrighted and may only be
+modified in the following manner. The Agre
