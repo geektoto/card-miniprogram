@@ -444,4 +444,5 @@ The Eclipse Foundation is the initial Agreement Steward. The Eclipse Foundation
 may assign the responsibility to
 serve as the Agreement Steward to a suitable separate entity. Each new version
 of the Agreement will be given a distinguishing version number. The Program
-(including Contributions) may
+(including Contributions) may always be distributed subject to the version of
+the Agreement under which it was received. In addition, after a new ve
