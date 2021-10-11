@@ -445,4 +445,6 @@ may assign the responsibility to
 serve as the Agreement Steward to a suitable separate entity. Each new version
 of the Agreement will be given a distinguishing version number. The Program
 (including Contributions) may always be distributed subject to the version of
-the Agreement under which it was received. In addition, after a new ve
+the Agreement under which it was received. In addition, after a new version of
+the Agreement is published, Contributor may elect to distribute the Program
+(including its
