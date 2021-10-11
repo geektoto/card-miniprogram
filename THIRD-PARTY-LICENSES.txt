@@ -442,4 +442,6 @@ No one other than the Agreement Steward has the right to modify this
 Agreement.
 The Eclipse Foundation is the initial Agreement Steward. The Eclipse Foundation
 may assign the responsibility to
-serve as the Agreement Steward to a suitable separate ent
+serve as the Agreement Steward to a suitable separate entity. Each new version
+of the Agreement will be given a distinguishing version number. The Program
+(including Contributions) may
