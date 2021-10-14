@@ -449,4 +449,6 @@ the Agreement under which it was received. In addition, after a new version of
 the Agreement is published, Contributor may elect to distribute the Program
 (including its Contributions) under the new version. Except as expressly
 stated
-in Sections 2(a) and 2(b) above, Recipient receives no rights 
+in Sections 2(a) and 2(b) above, Recipient receives no rights or licenses to
+the intellectual property of any Contributor under this Agreement, whether
+expressly, by implication, es
