@@ -463,4 +463,7 @@ in any resulting litigation.
 
 -----
 
-** checker-framework;
+** checker-framework; version 2.5.8 -- https://checkerframework.org/
+Copyright 2004-present by the Checker Framework developers
+
+T
