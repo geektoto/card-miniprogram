@@ -477,4 +477,5 @@ license appears below.  This is the same license used for OpenJDK.
 A few parts of the Checker Framework have more permissive licenses.
 
 * The annotations are licensed under the MIT License.  (The text of this
-license a
+license appears below.)  More specifically, all the parts of the Checker
+Framework that you might want to inclu
