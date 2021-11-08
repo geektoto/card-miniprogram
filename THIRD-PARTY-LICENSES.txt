@@ -486,4 +486,7 @@ In addition, the cleanroom implementations of third-party annotations,
 which the Checker Framework recognizes as aliases for its own
 annotations, are licensed under the MIT License.
 
-Some exter
+Some external libraries that are included with the Checker Framework have
+different licenses.
+
+* javaparser is dual licen
