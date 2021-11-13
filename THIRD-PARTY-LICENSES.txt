@@ -489,4 +489,5 @@ annotations, are licensed under the MIT License.
 Some external libraries that are included with the Checker Framework have
 different licenses.
 
-* javaparser is dual licen
+* javaparser is dual licensed under the LGPL or the Apache license -- you
+may use it under whichever one you want.  (The javaparser sourc
