@@ -490,4 +490,6 @@ Some external libraries that are included with the Checker Framework have
 different licenses.
 
 * javaparser is dual licensed under the LGPL or the Apache license -- you
-may use it under whichever one you want.  (The javaparser sourc
+may use it under whichever one you want.  (The javaparser source code
+contains a file with the text of the GPL, but it is not clear why, since
+javaparser does not use the GP
