@@ -492,4 +492,7 @@ different licenses.
 * javaparser is dual licensed under the LGPL or the Apache license -- you
 may use it under whichever one you want.  (The javaparser source code
 contains a file with the text of the GPL, but it is not clear why, since
-javaparser does not use the GP
+javaparser does not use the GPL.)  See file stubparser/LICENSE
+and the source code of all its files.
+
+* JUnit is licensed und
