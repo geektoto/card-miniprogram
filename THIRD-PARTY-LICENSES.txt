@@ -499,4 +499,8 @@ and the source code of all its files.
 http://www.junit.org/license), with parts (Hamcrest) licensed under the
 BSD License (see http://hamcrest.org/JavaHamcrest/).
 
-* Libraries in plume-lib (https://github.com/plume-l
+* Libraries in plume-lib (https://github.com/plume-lib/) are licensed
+under the MIT License.
+
+The Checker Framework includes annotations for the JDK in directory
+c
