@@ -503,4 +503,5 @@ BSD License (see http://hamcrest.org/JavaHamcrest/).
 under the MIT License.
 
 The Checker Framework includes annotations for the JDK in directory
-c
+checker/jdk/, and for some other libraries.  Each annotated library uses
+the same license as the una
