@@ -495,4 +495,6 @@ contains a file with the text of the GPL, but it is not clear why, since
 javaparser does not use the GPL.)  See file stubparser/LICENSE
 and the source code of all its files.
 
-* JUnit is licensed und
+* JUnit is licensed under the Common Public License v1.0 (see
+http://www.junit.org/license), with parts (Hamcrest) licensed under the
+BSD 
