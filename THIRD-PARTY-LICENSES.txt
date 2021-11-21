@@ -497,4 +497,6 @@ and the source code of all its files.
 
 * JUnit is licensed under the Common Public License v1.0 (see
 http://www.junit.org/license), with parts (Hamcrest) licensed under the
-BSD 
+BSD License (see http://hamcrest.org/JavaHamcrest/).
+
+* Libraries in plume-lib (https://github.com/plume-l
