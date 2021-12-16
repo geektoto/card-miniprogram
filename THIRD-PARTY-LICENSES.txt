@@ -553,4 +553,5 @@ and/or modify the software.
 Also, for each author's protection and ours, we want to make certain that
 everyone understands that there is no warranty for this free software.  If the
 software is modified by someone else and passed on, we want its recipients to
-know 
+know that what they have is not the original, so that any problems introduced
+by others will not reflect on the origin
