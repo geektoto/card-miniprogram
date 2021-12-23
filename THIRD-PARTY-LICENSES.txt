@@ -567,4 +567,5 @@ follow.
 
 TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 
-0. This License applies to a
+0. This License applies to any program or other work which contains a notice
+placed by the copyright holder saying it may be distributed 
