@@ -606,4 +606,6 @@ in part contains or is derived from the Program or any part thereof, to be
 licensed as a whole at no charge to all third parties under the terms of
 this License.
 
-c) If the modified program normally reads commands int
+c) If the modified program normally reads commands interactively when run,
+you must cause it, when started running for such interactive use in the
+most ordinary 
