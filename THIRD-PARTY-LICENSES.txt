@@ -608,4 +608,6 @@ this License.
 
 c) If the modified program normally reads commands interactively when run,
 you must cause it, when started running for such interactive use in the
-most ordinary 
+most ordinary way, to print or display an announcement including an
+appropriate copyright notice and a notice that there is no warranty (or
+else, sayin
