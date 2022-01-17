@@ -610,4 +610,5 @@ c) If the modified program normally reads commands interactively when run,
 you must cause it, when started running for such interactive use in the
 most ordinary way, to print or display an announcement including an
 appropriate copyright notice and a notice that there is no warranty (or
-else, sayin
+else, saying that you provide a warranty) and that users may redistribute
+the program under these conditions, and telling the user how to view a cop
