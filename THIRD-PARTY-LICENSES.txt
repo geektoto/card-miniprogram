@@ -650,4 +650,5 @@ corresponding source code, to be distributed under the terms of Sections 1
 and 2 above on a medium customarily used for software interchange; or,
 
 c) Accompany it with the information you received as to the offer to
-distrib
+distribute corresponding source code.  (This alternative is allowed only
+for noncommercial distribution and only if you receive
