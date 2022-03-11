@@ -678,4 +678,5 @@ rights, from you under this License will not have their licenses terminated so
 long as such parties remain in full compliance.
 
 5. You are not required to accept this License, since you have not signed it.
-However, nothing else grants y
+However, nothing else grants you permission to modify or distribute the Program
+or its derivative works.  These actions are prohibited b
