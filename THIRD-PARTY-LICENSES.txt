@@ -681,4 +681,5 @@ long as such parties remain in full compliance.
 However, nothing else grants you permission to modify or distribute the Program
 or its derivative works.  These actions are prohibited by law if you do not
 accept this License.  Therefore, by modifying or distributing the Program (or
-any work based on the 
+any work based on the Program), you indicate your acceptance of this License to
+do so, and all its terms and conditions for copyi
