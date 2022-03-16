@@ -693,4 +693,5 @@ rights granted herein.  You are not responsible for enforcing compliance by
 third parties to this License.
 
 7. If, as a consequence of a court judgment or allegation of patent
-i
+infringement or for any other reason (not limited to patent issues), conditions
+are imposed on you (whether by cour
