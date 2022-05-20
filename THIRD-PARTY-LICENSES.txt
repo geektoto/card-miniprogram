@@ -835,4 +835,6 @@ License instead of this License.
 
 "CLASSPATH" EXCEPTION TO THE GPL
 
-Certain source files distributed by Oracle America and/
+Certain source files distributed by Oracle America and/or its affiliates are
+subject to the following clarification and special exception to the GPL, but
+only where Oracle 
