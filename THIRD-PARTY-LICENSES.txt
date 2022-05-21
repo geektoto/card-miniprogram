@@ -837,4 +837,5 @@ License instead of this License.
 
 Certain source files distributed by Oracle America and/or its affiliates are
 subject to the following clarification and special exception to the GPL, but
-only where Oracle 
+only where Oracle has expressly included in the particular source file's header
+the words "Oracle designates this pa
