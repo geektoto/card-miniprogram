@@ -1,4 +1,13 @@
 apply plugin: 'java'
 
 sourceCompatibility = 1.8
-targe
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
