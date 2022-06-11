@@ -16,4 +16,8 @@ buildscript {
     }
 }
 
-apply p
+apply plugin: "io.spring.dependency-management"
+
+dependencyManagement {
+    imports {
+        mavenBom 'com.amazonaws
