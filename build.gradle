@@ -26,3 +26,9 @@ dependencyManagement {
 
 configurations {
     // for putting Error Prone javac in bootclasspath for running tests
+    // on Java 8 JDKs
+    errorproneJavac
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12
