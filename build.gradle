@@ -20,4 +20,9 @@ apply plugin: "io.spring.dependency-management"
 
 dependencyManagement {
     imports {
-        mavenBom 'com.amazonaws
+        mavenBom 'com.amazonaws:aws-java-sdk-bom:1.11.731'
+    }
+}
+
+configurations {
+    // for putting Error Prone javac in bootclasspath for running tests
