@@ -37,4 +37,8 @@ dependencies {
     compile group: 'org.checkerframework', name: 'checker', version: '3.2.+'
 
     implementation "com.google.errorprone:javac:9+181-r4173-1"
-  
+    errorproneJavac "com.google.errorprone:javac:9+181-r4173-1"
+}
+
+task copyDependencies(type: Copy) {
+    from conf
