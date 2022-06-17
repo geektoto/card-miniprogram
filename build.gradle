@@ -41,4 +41,10 @@ dependencies {
 }
 
 task copyDependencies(type: Copy) {
-    from conf
+    from configurations.compile
+    into 'dependencies'
+}
+
+test {
+    if (!JavaVersion.current().java9Compatible) {
+        jvmArgs
