@@ -47,4 +47,6 @@ task copyDependencies(type: Copy) {
 
 test {
     if (!JavaVersion.current().java9Compatible) {
-        jvmArgs
+        jvmArgs "-Xbootclasspath/p:${configurations.errorproneJavac.asPath}"
+    }
+}
