@@ -11,4 +11,5 @@ import com.amazon.checkerframework.cryptopolicy.qual.CryptoWhiteListed;
 import com.amazon.checkerframework.cryptopolicy.qual.UnknownCryptoAlgorithm;
 import org.checkerframework.common.basetype.BaseAnnotatedTypeFactory;
 import org.checkerframework.common.basetype.BaseTypeChecker;
-imp
+import org.checkerframework.framework.util.MultiGraphQualifierHierarchy;
+import org.checkerframework.framework.util.MultiGraphQua
