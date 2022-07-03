@@ -9,4 +9,6 @@ import com.amazon.checkerframework.cryptopolicy.qual.CryptoBlackListed;
 import com.amazon.checkerframework.cryptopolicy.qual.CryptoPolicyBottom;
 import com.amazon.checkerframework.cryptopolicy.qual.CryptoWhiteListed;
 import com.amazon.checkerframework.cryptopolicy.qual.UnknownCryptoAlgorithm;
-import org.checkerframework.commo
+import org.checkerframework.common.basetype.BaseAnnotatedTypeFactory;
+import org.checkerframework.common.basetype.BaseTypeChecker;
+imp
