@@ -18,4 +18,7 @@ import org.checkerframework.javacutil.AnnotationUtils;
 /**
  * Need this to define the subtyping relationship between @CryptoWhiteListed annotations.
  */
-public c
+public class CryptoPolicyComplianceAnnotatedTypeFactory extends BaseAnnotatedTypeFactory {
+
+    /**
+    
