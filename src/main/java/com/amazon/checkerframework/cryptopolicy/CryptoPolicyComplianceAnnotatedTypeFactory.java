@@ -24,4 +24,10 @@ public class CryptoPolicyComplianceAnnotatedTypeFactory extends BaseAnnotatedTyp
      * Default constructor.
      * @param checker from the CF.
      */
-    public CryptoPolicyComplianceAnnotatedTyp
+    public CryptoPolicyComplianceAnnotatedTypeFactory(final BaseTypeChecker checker) {
+        super(checker);
+        this.postInit();
+    }
+
+
+    @O
