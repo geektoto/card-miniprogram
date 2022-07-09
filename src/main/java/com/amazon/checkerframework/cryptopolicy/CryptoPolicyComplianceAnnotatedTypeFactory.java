@@ -21,4 +21,7 @@ import org.checkerframework.javacutil.AnnotationUtils;
 public class CryptoPolicyComplianceAnnotatedTypeFactory extends BaseAnnotatedTypeFactory {
 
     /**
-    
+     * Default constructor.
+     * @param checker from the CF.
+     */
+    public CryptoPolicyComplianceAnnotatedTyp
