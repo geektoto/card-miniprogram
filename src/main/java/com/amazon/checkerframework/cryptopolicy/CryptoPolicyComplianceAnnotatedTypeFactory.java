@@ -32,4 +32,5 @@ public class CryptoPolicyComplianceAnnotatedTypeFactory extends BaseAnnotatedTyp
 
     @Override
     protected Set<Class<? extends Annotation>> createSupportedTypeQualifiers() {
-        return getBu
+        return getBundledTypeQualifiers(CryptoBlackListed.class,
+                CryptoPolicyBottom.class, CryptoWhiteListed.class, UnknownCryptoAlgorith
