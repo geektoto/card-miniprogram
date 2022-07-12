@@ -37,4 +37,9 @@ public class CryptoPolicyComplianceAnnotatedTypeFactory extends BaseAnnotatedTyp
     }
 
     @Override
-    public MultiGraphQualifierHierarchy createQualifierHierarchy(final Mu
+    public MultiGraphQualifierHierarchy createQualifierHierarchy(final MultiGraphFactory f) {
+        return new CryptoPolicyComplianceQualifierHierarchy(f);
+    }
+
+    /**
+     * A custom qualifier hierarch
