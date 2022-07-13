@@ -42,4 +42,6 @@ public class CryptoPolicyComplianceAnnotatedTypeFactory extends BaseAnnotatedTyp
     }
 
     /**
-     * A custom qualifier hierarch
+     * A custom qualifier hierarchy to handle subtyping.
+     */
+    private static class CryptoPolicyComplianceQualifierHierarchy extends MultiGraphQualifierHiera
