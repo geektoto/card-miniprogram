@@ -53,4 +53,5 @@ public class CryptoPolicyComplianceAnnotatedTypeFactory extends BaseAnnotatedTyp
             super(f);
         }
 
-    
+        @Override
+        public boolean isSubtype(final AnnotationMirror subtype, final AnnotationMirror supertype)
