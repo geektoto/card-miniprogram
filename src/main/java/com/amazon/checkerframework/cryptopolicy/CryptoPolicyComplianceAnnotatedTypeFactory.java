@@ -49,4 +49,8 @@ public class CryptoPolicyComplianceAnnotatedTypeFactory extends BaseAnnotatedTyp
          * Constructor matching super
          * @param f supplied by CF
          */
-       
+        CryptoPolicyComplianceQualifierHierarchy(final MultiGraphFactory f) {
+            super(f);
+        }
+
+    
