@@ -56,4 +56,6 @@ public class CryptoPolicyComplianceAnnotatedTypeFactory extends BaseAnnotatedTyp
         @Override
         public boolean isSubtype(final AnnotationMirror subtype, final AnnotationMirror supertype) {
             if (AnnotationUtils.areSameByClass(supertype, UnknownCryptoAlgorithm.class)
-                    || AnnotationUtils.areSa
+                    || AnnotationUtils.areSameByClass(subtype, CryptoPolicyBottom.class)) {
+                return true;
+            } else if (AnnotationU
