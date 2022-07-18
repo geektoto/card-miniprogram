@@ -58,4 +58,5 @@ public class CryptoPolicyComplianceAnnotatedTypeFactory extends BaseAnnotatedTyp
             if (AnnotationUtils.areSameByClass(supertype, UnknownCryptoAlgorithm.class)
                     || AnnotationUtils.areSameByClass(subtype, CryptoPolicyBottom.class)) {
                 return true;
-            } else if (AnnotationU
+            } else if (AnnotationUtils.areSameByClass(subtype, UnknownCryptoAlgorithm.class)
+                    || AnnotationUtils.areSameByClass(supertype, 
