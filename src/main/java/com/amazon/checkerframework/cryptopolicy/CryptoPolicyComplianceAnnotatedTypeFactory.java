@@ -62,4 +62,6 @@ public class CryptoPolicyComplianceAnnotatedTypeFactory extends BaseAnnotatedTyp
                     || AnnotationUtils.areSameByClass(supertype, CryptoPolicyBottom.class)) {
                 return false;
             } else if (AnnotationUtils.areSameByClass(subtype, CryptoWhiteListed.class)
-                       && AnnotationUtils.areSameByClass(supertype, CryptoWhiteL
+                       && AnnotationUtils.areSameByClass(supertype, CryptoWhiteListed.class)) {
+                // both are whitelists
+                return compareCryptoListTypes(subtype, supertype
