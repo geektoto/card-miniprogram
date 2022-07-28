@@ -71,4 +71,7 @@ public class CryptoPolicyComplianceAnnotatedTypeFactory extends BaseAnnotatedTyp
                 return compareCryptoListTypes(subtype, supertype);
             } else {
                 return false;
-         
+            }
+        }
+
+        private boolean compareCryptoListTypes(final AnnotationMirror subtype, final AnnotationMirror sup
