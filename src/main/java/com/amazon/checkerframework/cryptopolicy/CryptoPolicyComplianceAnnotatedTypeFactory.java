@@ -76,4 +76,7 @@ public class CryptoPolicyComplianceAnnotatedTypeFactory extends BaseAnnotatedTyp
 
         private boolean compareCryptoListTypes(final AnnotationMirror subtype, final AnnotationMirror supertype) {
             List<String> subtypeRegexes =
-                AnnotationUtils.getElementValueArray(s
+                AnnotationUtils.getElementValueArray(subtype, "value", String.class, true);
+
+            List<String> supertypeRegexes =
+                AnnotationUtils.getEle
