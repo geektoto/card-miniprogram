@@ -79,4 +79,6 @@ public class CryptoPolicyComplianceAnnotatedTypeFactory extends BaseAnnotatedTyp
                 AnnotationUtils.getElementValueArray(subtype, "value", String.class, true);
 
             List<String> supertypeRegexes =
-                AnnotationUtils.getEle
+                AnnotationUtils.getElementValueArray(supertype, "value", String.class, true);
+
+            // It is expensive to check whether two different re
