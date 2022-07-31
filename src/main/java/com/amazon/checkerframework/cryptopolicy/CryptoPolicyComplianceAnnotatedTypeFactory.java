@@ -81,4 +81,5 @@ public class CryptoPolicyComplianceAnnotatedTypeFactory extends BaseAnnotatedTyp
             List<String> supertypeRegexes =
                 AnnotationUtils.getElementValueArray(supertype, "value", String.class, true);
 
-            // It is expensive to check whether two different re
+            // It is expensive to check whether two different regexes actually accept the same set of values
+            // (or, as would be ideal here, whether one accepts 
