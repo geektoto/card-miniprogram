@@ -82,4 +82,5 @@ public class CryptoPolicyComplianceAnnotatedTypeFactory extends BaseAnnotatedTyp
                 AnnotationUtils.getElementValueArray(supertype, "value", String.class, true);
 
             // It is expensive to check whether two different regexes actually accept the same set of values
-            // (or, as would be ideal here, whether one accepts 
+            // (or, as would be ideal here, whether one accepts a strict subset of the other): doing so requires
+            // constructing DFAs, etc.; and, to make matters 
