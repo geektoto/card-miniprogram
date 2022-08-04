@@ -83,4 +83,5 @@ public class CryptoPolicyComplianceAnnotatedTypeFactory extends BaseAnnotatedTyp
 
             // It is expensive to check whether two different regexes actually accept the same set of values
             // (or, as would be ideal here, whether one accepts a strict subset of the other): doing so requires
-            // constructing DFAs, etc.; and, to make matters 
+            // constructing DFAs, etc.; and, to make matters worse, Java regexes aren't regular in the technical
+            // sense. So we avoid the problem enti
