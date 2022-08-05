@@ -85,4 +85,8 @@ public class CryptoPolicyComplianceAnnotatedTypeFactory extends BaseAnnotatedTyp
             // (or, as would be ideal here, whether one accepts a strict subset of the other): doing so requires
             // constructing DFAs, etc.; and, to make matters worse, Java regexes aren't regular in the technical
             // sense. So we avoid the problem entirely and just check if the subtype has only regexes that literally
-            // appear in the supertype. This is a sou
+            // appear in the supertype. This is a sound approximation of the actual check.
+            return supertypeRegexes.containsAll(subtypeRegexes);
+        }
+    }
+}
