@@ -10,4 +10,7 @@ import org.checkerframework.common.value.ValueChecker;
  * Note that the CheckerFramework uses convention driven development by searching for a (x)Checker class and then
  * loading the (x)AnnotatedTypeFactory.
  * The checker does not provide a default @SuppressWarnings but uses
- * {@link com.amazon.checkerframework.cryptopolicy.qual.Suppr
+ * {@link com.amazon.checkerframework.cryptopolicy.qual.SuppressCryptoWarning} instead to
+ * force users to get an exception for use of non-whitelisted ciphers.
+ */
+public class CryptoPolicyC
