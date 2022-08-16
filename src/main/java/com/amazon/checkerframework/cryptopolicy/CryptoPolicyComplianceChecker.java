@@ -13,4 +13,7 @@ import org.checkerframework.common.value.ValueChecker;
  * {@link com.amazon.checkerframework.cryptopolicy.qual.SuppressCryptoWarning} instead to
  * force users to get an exception for use of non-whitelisted ciphers.
  */
-public class CryptoPolicyC
+public class CryptoPolicyComplianceChecker extends BaseTypeChecker {
+
+    @Override
+    protected LinkedHashSet<Class<? extends BaseTypeChecker>> getImme
