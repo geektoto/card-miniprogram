@@ -16,4 +16,6 @@ import org.checkerframework.common.value.ValueChecker;
 public class CryptoPolicyComplianceChecker extends BaseTypeChecker {
 
     @Override
-    protected LinkedHashSet<Class<? extends BaseTypeChecker>> getImme
+    protected LinkedHashSet<Class<? extends BaseTypeChecker>> getImmediateSubcheckerClasses() {
+        LinkedHashSet<Class<? extends BaseTypeChecker>> checkers =
+            super.getIm
