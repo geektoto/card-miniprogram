@@ -19,4 +19,8 @@ public class CryptoPolicyComplianceChecker extends BaseTypeChecker {
     protected LinkedHashSet<Class<? extends BaseTypeChecker>> getImmediateSubcheckerClasses() {
         LinkedHashSet<Class<? extends BaseTypeChecker>> checkers =
             super.getImmediateSubcheckerClasses();
-        // run the value checker before this checker to propagate string constants aroun
+        // run the value checker before this checker to propagate string constants around.
+        checkers.add(ValueChecker.class);
+        return checkers;
+    }
+}
