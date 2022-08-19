@@ -2,4 +2,7 @@ package com.amazon.checkerframework.cryptopolicy;
 
 import javax.lang.model.element.AnnotationMirror;
 import javax.lang.model.element.Element;
-import 
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.HashSet;
