@@ -14,4 +14,7 @@ import com.amazon.checkerframework.cryptopolicy.qual.CryptoBlackListed;
 import com.amazon.checkerframework.cryptopolicy.qual.CryptoWhiteListed;
 import com.amazon.checkerframework.cryptopolicy.qual.SuppressCryptoWarning;
 import com.sun.source.tree.ClassTree;
-import com.sun.source.tree.Express
+import com.sun.source.tree.ExpressionTree;
+import com.sun.source.tree.MethodTree;
+import com.sun.source.tree.VariableTree;
+import com.sun.s
