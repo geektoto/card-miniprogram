@@ -23,4 +23,6 @@ import org.checkerframework.common.basetype.BaseTypeChecker;
 import org.checkerframework.common.basetype.BaseTypeVisitor;
 import org.checkerframework.common.value.ValueAnnotatedTypeFactory;
 import org.checkerframework.common.value.ValueChecker;
-i
+import org.checkerframework.common.value.qual.StringVal;
+import org.checkerframework.framework.source.Result;
+import org.checkerf
