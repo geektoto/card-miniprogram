@@ -21,4 +21,6 @@ import com.sun.source.util.TreePath;
 import org.checkerframework.checker.compilermsgs.qual.CompilerMessageKey;
 import org.checkerframework.common.basetype.BaseTypeChecker;
 import org.checkerframework.common.basetype.BaseTypeVisitor;
-import 
+import org.checkerframework.common.value.ValueAnnotatedTypeFactory;
+import org.checkerframework.common.value.ValueChecker;
+i
