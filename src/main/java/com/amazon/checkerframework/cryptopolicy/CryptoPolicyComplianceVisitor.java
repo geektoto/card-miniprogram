@@ -27,4 +27,7 @@ import org.checkerframework.common.value.qual.StringVal;
 import org.checkerframework.framework.source.Result;
 import org.checkerframework.framework.type.AnnotatedTypeMirror;
 import org.checkerframework.javacutil.AnnotationUtils;
-import 
+import org.checkerframework.javacutil.TreeUtils;
+
+/**
+ * Modifies the common assignment check to permit valu
