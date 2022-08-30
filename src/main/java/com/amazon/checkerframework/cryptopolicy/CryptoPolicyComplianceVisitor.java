@@ -33,4 +33,6 @@ import org.checkerframework.javacutil.TreeUtils;
  * Modifies the common assignment check to permit values with StringVal annotations from
  * the Value Checker to be assigned to lhs_s that require a crypto whitelist.
  */
-public 
+public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
+
+    private static final @CompilerMessageKey Strin
