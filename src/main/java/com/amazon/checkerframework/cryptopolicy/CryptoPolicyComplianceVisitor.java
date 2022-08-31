@@ -36,4 +36,5 @@ import org.checkerframework.javacutil.TreeUtils;
 public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
 
     private static final @CompilerMessageKey String CRYPTO_COMPLIANCE_WARNING_KEY = "crypto.policy.warning";
-    private static final @CompilerMessageKey String CRYPTO_COM
+    private static final @CompilerMessageKey String CRYPTO_COMPLIANCE_ERROR_KEY = "crypto.policy.violation";
+    private static final @CompilerMessageKey String BAD_URL_KEY = "bad.crypto.is
