@@ -38,4 +38,11 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
     private static final @CompilerMessageKey String CRYPTO_COMPLIANCE_WARNING_KEY = "crypto.policy.warning";
     private static final @CompilerMessageKey String CRYPTO_COMPLIANCE_ERROR_KEY = "crypto.policy.violation";
     private static final @CompilerMessageKey String BAD_URL_KEY = "bad.crypto.issue.url";
-    private static final @CompilerMessageKey String UNKNOWN_ALGORITHM_KEY = "crypto.ciph
+    private static final @CompilerMessageKey String UNKNOWN_ALGORITHM_KEY = "crypto.cipher.unknown";
+
+    /**
+     * Default constructor.
+     *
+     * @param checker Provided by the checker framework
+     */
+ 
