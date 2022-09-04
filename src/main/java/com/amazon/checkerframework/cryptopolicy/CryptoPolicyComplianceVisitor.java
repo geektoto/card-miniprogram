@@ -45,4 +45,5 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
      *
      * @param checker Provided by the checker framework
      */
- 
+    public CryptoPolicyComplianceVisitor(BaseTypeChecker checker) {
+        supe
