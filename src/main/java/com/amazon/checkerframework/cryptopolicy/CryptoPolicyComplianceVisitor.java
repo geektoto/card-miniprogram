@@ -46,4 +46,8 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
      * @param checker Provided by the checker framework
      */
     public CryptoPolicyComplianceVisitor(BaseTypeChecker checker) {
-        supe
+        super(checker);
+    }
+
+    /**
+     * Changes how assignments and pseudo-assignments are resolved. lhsType is the type of the lhs ex
