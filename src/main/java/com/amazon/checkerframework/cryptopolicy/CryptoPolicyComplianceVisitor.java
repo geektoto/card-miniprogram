@@ -50,4 +50,7 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
     }
 
     /**
-     * Changes how assignments and pseudo-assignments are resolved. lhsType is the type of the lhs ex
+     * Changes how assignments and pseudo-assignments are resolved. lhsType is the type of the lhs expression,
+     * rhsTree is the rhs of the assignment.
+     *
+     * @param lhsType  lhs type of the assignment
