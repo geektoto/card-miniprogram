@@ -54,3 +54,7 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
      * rhsTree is the rhs of the assignment.
      *
      * @param lhsType  lhs type of the assignment
+     * @param rhsTree  rhs tree of the assingment
+     * @param errorKey key of the error to issue if this check fails.
+     */
+    
