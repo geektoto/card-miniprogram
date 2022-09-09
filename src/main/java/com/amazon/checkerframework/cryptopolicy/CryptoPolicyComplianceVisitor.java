@@ -57,4 +57,6 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
      * @param rhsTree  rhs tree of the assingment
      * @param errorKey key of the error to issue if this check fails.
      */
-    
+    @Override
+    public void commonAssignmentCheck(final AnnotatedTypeMirror lhsType,
+                               
