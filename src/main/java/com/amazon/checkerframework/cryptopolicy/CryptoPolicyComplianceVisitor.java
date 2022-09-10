@@ -62,4 +62,5 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
                                       final ExpressionTree rhsTree,
                                       final String errorKey) {
 
-     
+        final List<String> stringValAnnotations = getLowerCasedStringValAnnotations(rhsTree);
+        final AnnotationMirro
