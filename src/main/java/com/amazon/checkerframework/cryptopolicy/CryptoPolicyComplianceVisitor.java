@@ -59,4 +59,7 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
      */
     @Override
     public void commonAssignmentCheck(final AnnotatedTypeMirror lhsType,
-                               
+                                      final ExpressionTree rhsTree,
+                                      final String errorKey) {
+
+     
