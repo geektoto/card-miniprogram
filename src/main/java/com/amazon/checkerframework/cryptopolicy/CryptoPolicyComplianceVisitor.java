@@ -63,4 +63,5 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
                                       final String errorKey) {
 
         final List<String> stringValAnnotations = getLowerCasedStringValAnnotations(rhsTree);
-        final AnnotationMirro
+        final AnnotationMirror whiteListAnno = lhsType.getAnnotation(CryptoWhiteListed.class);
+        final AnnotationMirror blackListAnno = 
