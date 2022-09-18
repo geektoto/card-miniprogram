@@ -68,4 +68,7 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
 
         // If the lhs isn't a Crypto Policy whitelist or blacklist, or if the rhs does not have
         // any StringVal annotations then there is nothing to do.
-        if ((whiteListAnno == null && blackList
+        if ((whiteListAnno == null && blackListAnno == null)) {
+            super.commonAssignmentCheck(lhsType, rhsTree, errorKey);
+            return;
+    
