@@ -66,4 +66,6 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
         final AnnotationMirror whiteListAnno = lhsType.getAnnotation(CryptoWhiteListed.class);
         final AnnotationMirror blackListAnno = lhsType.getAnnotation(CryptoBlackListed.class);
 
-        // If the lhs isn't a Crypto Policy whitelist or blacklist, or if the rhs 
+        // If the lhs isn't a Crypto Policy whitelist or blacklist, or if the rhs does not have
+        // any StringVal annotations then there is nothing to do.
+        if ((whiteListAnno == null && blackList
