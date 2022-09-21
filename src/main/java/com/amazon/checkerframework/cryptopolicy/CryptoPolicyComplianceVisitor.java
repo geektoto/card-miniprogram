@@ -71,4 +71,6 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
         if ((whiteListAnno == null && blackListAnno == null)) {
             super.commonAssignmentCheck(lhsType, rhsTree, errorKey);
             return;
-    
+        }
+        // If we cannot determine what algorithm is used we fail the build as well to avoid false negatives.
+        if (str
