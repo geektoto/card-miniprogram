@@ -73,4 +73,5 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
             return;
         }
         // If we cannot determine what algorithm is used we fail the build as well to avoid false negatives.
-        if (str
+        if (stringValAnnotations == null || stringValAnnotations.isEmpty()) {
+            checker.report(Result.fa
