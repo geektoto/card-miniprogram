@@ -74,4 +74,8 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
         }
         // If we cannot determine what algorithm is used we fail the build as well to avoid false negatives.
         if (stringValAnnotations == null || stringValAnnotations.isEmpty()) {
-            checker.report(Result.fa
+            checker.report(Result.failure(UNKNOWN_ALGORITHM_KEY), rhsTree);
+            return;
+        }
+
+        final Set<String> disallowedCiphers
