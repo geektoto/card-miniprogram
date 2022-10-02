@@ -78,4 +78,6 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
             return;
         }
 
-        final Set<String> disallowedCiphers
+        final Set<String> disallowedCiphers = new HashSet<>();
+        final Set<String> warningCiphers = new HashSet<>();
+        if (whiteListAnno !=
