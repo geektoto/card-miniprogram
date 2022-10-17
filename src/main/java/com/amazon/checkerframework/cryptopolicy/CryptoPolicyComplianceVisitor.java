@@ -82,4 +82,6 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
         final Set<String> warningCiphers = new HashSet<>();
         if (whiteListAnno != null) {
             List<String> regexList = AnnotationUtils.getElementValueArray(whiteListAnno, "value", String.class, true);
-            disallowedCiphers.addAll(matchCiphersFromAnnotation(regexList, stringValAnnotat
+            disallowedCiphers.addAll(matchCiphersFromAnnotation(regexList, stringValAnnotations, false));
+
+            List<String> warnList = AnnotationUtils.getElementValueArray(whiteListAnno, "warnOn", String.class
