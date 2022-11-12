@@ -93,4 +93,5 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
             disallowedCiphers.addAll(matchCiphersFromAnnotation(regexList, stringValAnnotations, true));
         }
 
-        // remove all disallowedCiphers from
+        // remove all disallowedCiphers from the warningCiphers because we report an error about those already.
+        warningCiphers.remove
