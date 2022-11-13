@@ -96,4 +96,6 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
         // remove all disallowedCiphers from the warningCiphers because we report an error about those already.
         warningCiphers.removeAll(disallowedCiphers);
         if (!warningCiphers.isEmpty()) {
-            final String messageString = String.j
+            final String messageString = String.join(", ", warningCiphers).toUpperCase();
+            if (!shouldSuppressWarnings(rhsTree, messageString)) {
+  
