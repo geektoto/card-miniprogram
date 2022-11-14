@@ -98,4 +98,4 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
         if (!warningCiphers.isEmpty()) {
             final String messageString = String.join(", ", warningCiphers).toUpperCase();
             if (!shouldSuppressWarnings(rhsTree, messageString)) {
-  
+                checker.report(Result.warning(CRYPTO_COMPLIANCE_WARNING_KEY, messageString), rhsTree
