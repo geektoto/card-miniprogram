@@ -105,4 +105,6 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
         // if none of the regex checks returned false, then we can skip the rest of the CAC
         if (!disallowedCiphers.isEmpty()) {
             final String messageString = String.join(", ", disallowedCiphers).toUpperCase();
-            if (!shouldSuppressWarnings(rhsTree, messageStri
+            if (!shouldSuppressWarnings(rhsTree, messageString)) {
+                checker.report(Result.failure(CRYPTO_COMPLIANCE_ERROR_KEY, messageString), rhsTree);
+   
