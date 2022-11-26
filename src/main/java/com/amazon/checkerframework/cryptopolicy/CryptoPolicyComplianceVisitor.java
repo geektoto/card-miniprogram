@@ -107,4 +107,9 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
             final String messageString = String.join(", ", disallowedCiphers).toUpperCase();
             if (!shouldSuppressWarnings(rhsTree, messageString)) {
                 checker.report(Result.failure(CRYPTO_COMPLIANCE_ERROR_KEY, messageString), rhsTree);
-   
+            }
+        }
+    }
+
+    /**
+     * Find the sub list of stringList that match regular expressions in the cipher a
