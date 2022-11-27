@@ -113,4 +113,8 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
 
     /**
      * Find the sub list of stringList that match regular expressions in the cipher annotation.
-     * Note that for simplicity, all regex strings are lower-cased since the standard says crypto al
+     * Note that for simplicity, all regex strings are lower-cased since the standard says crypto algorithms
+     * are not case-sensitive.
+     * Set positive to get the sublist of things that do not match.
+     *
+ 
