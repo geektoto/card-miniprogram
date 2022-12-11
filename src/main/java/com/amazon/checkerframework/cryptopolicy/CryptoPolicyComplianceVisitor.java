@@ -117,4 +117,6 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
      * are not case-sensitive.
      * Set positive to get the sublist of things that do not match.
      *
- 
+     * @param regexList  List of regex that should be matched
+     * @param stringList The list that should be matched.
+     * @param positive  
