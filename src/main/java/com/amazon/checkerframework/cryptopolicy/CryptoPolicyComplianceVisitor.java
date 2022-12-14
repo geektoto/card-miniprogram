@@ -120,4 +120,7 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
      * @param regexList  List of regex that should be matched
      * @param stringList The list that should be matched.
      * @param positive   True, to retain all matches, False to retain strings that don't have a match.
-     * @return Sublist of strin
+     * @return Sublist of strings.
+     */
+    private List<String> matchCiphersFromAnnotation(final List<String> regexList,
+                        
