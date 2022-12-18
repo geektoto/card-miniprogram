@@ -124,4 +124,6 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
      */
     private List<String> matchCiphersFromAnnotation(final List<String> regexList,
                                                     final List<String> stringList,
-                                              
+                                                    final boolean positive) {
+        // if there are no valid whitelist items, don't continue
+        if (regexList.is
