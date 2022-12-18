@@ -123,4 +123,5 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
      * @return Sublist of strings.
      */
     private List<String> matchCiphersFromAnnotation(final List<String> regexList,
-                        
+                                                    final List<String> stringList,
+                                              
