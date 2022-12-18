@@ -126,4 +126,9 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
                                                     final List<String> stringList,
                                                     final boolean positive) {
         // if there are no valid whitelist items, don't continue
-        if (regexList.is
+        if (regexList.isEmpty()) {
+            return new ArrayList<>();
+        }
+
+        List<Boolean> valuesMatched =
+            stringLi
