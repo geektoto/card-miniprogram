@@ -131,4 +131,6 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
         }
 
         List<Boolean> valuesMatched =
-            stringLi
+            stringList.stream()
+                      .map(value -> regexList.stream()
+                                             .anyMatc
