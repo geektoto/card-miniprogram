@@ -140,4 +140,9 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
         for (int i = 0; i < valuesMatched.size(); i++) {
             if (valuesMatched.get(i) == positive) {
                 matchedCiphers.add(stringList.get(i));
-          
+            }
+        }
+        return matchedCiphers;
+    }
+
+    private List<String> getLowerCasedStringValAnnotations(final Expres
