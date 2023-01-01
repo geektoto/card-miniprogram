@@ -136,4 +136,6 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
                                              .anyMatch(regex -> value.matches(regex.toLowerCase())))
                       .collect(Collectors.toList());
 
-        final L
+        final List<String> matchedCiphers = new ArrayList<>();
+        for (int i = 0; i < valuesMatched.size(); i++) {
+  
