@@ -133,4 +133,7 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
         List<Boolean> valuesMatched =
             stringList.stream()
                       .map(value -> regexList.stream()
-                                             .anyMatc
+                                             .anyMatch(regex -> value.matches(regex.toLowerCase())))
+                      .collect(Collectors.toList());
+
+        final L
