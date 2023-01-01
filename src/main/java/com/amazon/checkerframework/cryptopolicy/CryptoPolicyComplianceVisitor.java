@@ -138,4 +138,6 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
 
         final List<String> matchedCiphers = new ArrayList<>();
         for (int i = 0; i < valuesMatched.size(); i++) {
-  
+            if (valuesMatched.get(i) == positive) {
+                matchedCiphers.add(stringList.get(i));
+          
