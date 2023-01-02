@@ -145,4 +145,6 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
         return matchedCiphers;
     }
 
-    private List<String> getLowerCasedStringValAnnotations(final Expres
+    private List<String> getLowerCasedStringValAnnotations(final ExpressionTree expressionTree) {
+        // get the actual Strings that the rhs can resolve to
+        ValueAnnotatedTy
