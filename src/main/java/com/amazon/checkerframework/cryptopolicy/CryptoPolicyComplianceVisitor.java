@@ -147,4 +147,5 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
 
     private List<String> getLowerCasedStringValAnnotations(final ExpressionTree expressionTree) {
         // get the actual Strings that the rhs can resolve to
-        ValueAnnotatedTy
+        ValueAnnotatedTypeFactory valueAnnotatedTypeFactory =
+            (ValueAnnotatedTypeFactory) atypeFactory.getTypeFactoryOfSubche
