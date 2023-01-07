@@ -150,4 +150,7 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
         ValueAnnotatedTypeFactory valueAnnotatedTypeFactory =
             (ValueAnnotatedTypeFactory) atypeFactory.getTypeFactoryOfSubchecker(ValueChecker.class);
 
-        AnnotatedTypeMirror valueType = valueAnnotatedTypeFactory.getAnno
+        AnnotatedTypeMirror valueType = valueAnnotatedTypeFactory.getAnnotatedType(expressionTree);
+        AnnotationMirror stringValAnno = valueType.getAnnotation(StringVal.class);
+
+        /
