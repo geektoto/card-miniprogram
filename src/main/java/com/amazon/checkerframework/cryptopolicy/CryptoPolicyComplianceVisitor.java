@@ -154,4 +154,7 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
         AnnotationMirror stringValAnno = valueType.getAnnotation(StringVal.class);
 
         // if the rhs doesn't have any constant-time strings that it can resolve to, give up
-        if (stri
+        if (stringValAnno == null) {
+            return new ArrayList<>();
+        }
+        return AnnotationUtils.getElementValueArray(stringV
