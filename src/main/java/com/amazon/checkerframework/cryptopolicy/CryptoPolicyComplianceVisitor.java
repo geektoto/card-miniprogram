@@ -153,4 +153,5 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
         AnnotatedTypeMirror valueType = valueAnnotatedTypeFactory.getAnnotatedType(expressionTree);
         AnnotationMirror stringValAnno = valueType.getAnnotation(StringVal.class);
 
-        /
+        // if the rhs doesn't have any constant-time strings that it can resolve to, give up
+        if (stri
