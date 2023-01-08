@@ -157,4 +157,6 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
         if (stringValAnno == null) {
             return new ArrayList<>();
         }
-        return AnnotationUtils.getElementValueArray(stringV
+        return AnnotationUtils.getElementValueArray(stringValAnno, "value", String.class, true)
+                              .stream()
+                         
