@@ -164,3 +164,5 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
     }
 
 
+    private boolean shouldSuppressWarnings(final ExpressionTree tree, final String suppressedString) {
+        fina
