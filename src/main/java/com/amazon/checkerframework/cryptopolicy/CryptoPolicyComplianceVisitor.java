@@ -159,4 +159,8 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
         }
         return AnnotationUtils.getElementValueArray(stringValAnno, "value", String.class, true)
                               .stream()
-                         
+                              .map(String::toLowerCase)
+                              .collect(Collectors.toList());
+    }
+
+
