@@ -168,4 +168,5 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
         final TreePath path = trees.getPath(this.root, tree);
         if (path != null) {
             final VariableTree var = TreeUtils.enclosingVariable(path);
-            if (var != null && hasSuppresssCryptoAnnotatio
+            if (var != null && hasSuppresssCryptoAnnotation(TreeUtils.elementFromTree(var),
+                                                            suppressedString)) 
