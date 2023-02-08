@@ -173,4 +173,6 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
                 return true;
             }
             final MethodTree method = TreeUtils.enclosingMethod(path);
-  
+            if (method != null) {
+                final Element elt = TreeUtils.elementFromTree(method);
+
