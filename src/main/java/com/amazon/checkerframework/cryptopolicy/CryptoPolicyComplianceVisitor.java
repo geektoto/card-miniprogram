@@ -193,4 +193,5 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
             // Code to validate that the string in the annotation is a valid URL. In theory, we
             // would like to enforce that this URL also refers to a issue that gives this package
             // an exception to use the relevant algorithm, but this is not feasible to implement.
-            // M
+            // Mostly because we won't have network access during fleet builds to perform any sort
+            // of validation. Instead, we just check if
