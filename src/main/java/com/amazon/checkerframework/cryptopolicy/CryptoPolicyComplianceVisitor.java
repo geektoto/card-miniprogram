@@ -188,4 +188,6 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
     }
 
     private boolean hasSuppresssCryptoAnnotation(final Element elt, final String suppressedString) {
-        final SuppressCryptoWarning anno = elt.getAnnotation(Supp
+        final SuppressCryptoWarning anno = elt.getAnnotation(SuppressCryptoWarning.class);
+        if (anno != null) {
+            // Code to validate that the string 
