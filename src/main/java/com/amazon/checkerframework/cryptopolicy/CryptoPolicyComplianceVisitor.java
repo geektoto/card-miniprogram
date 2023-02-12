@@ -190,4 +190,5 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
     private boolean hasSuppresssCryptoAnnotation(final Element elt, final String suppressedString) {
         final SuppressCryptoWarning anno = elt.getAnnotation(SuppressCryptoWarning.class);
         if (anno != null) {
-            // Code to validate that the string 
+            // Code to validate that the string in the annotation is a valid URL. In theory, we
+            // would like to enforce that this URL also refers to a issue that gives 
