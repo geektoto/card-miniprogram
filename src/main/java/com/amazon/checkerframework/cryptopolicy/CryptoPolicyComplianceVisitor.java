@@ -180,4 +180,6 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
             }
             final ClassTree cls = TreeUtils.enclosingClass(path);
             if (cls != null) {
-                final Element elt = TreeUtils.ele
+                final Element elt = TreeUtils.elementFromTree(cls);
+                return hasSuppresssCryptoAnnotation(elt, suppressedString);
+ 
