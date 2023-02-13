@@ -196,4 +196,6 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
             // Mostly because we won't have network access during fleet builds to perform any sort
             // of validation. Instead, we just check if the string is a valid URL to deter users
             // from cheating by putting in empty string, etc.
-            
+            try {
+                final URL issueUrl = new URL(anno.issue());
+                System.out.println("Suppressing warnin
