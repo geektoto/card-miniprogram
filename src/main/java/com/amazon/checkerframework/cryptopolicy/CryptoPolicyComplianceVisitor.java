@@ -202,4 +202,6 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
                                    + suppressedString
                                    + " is approved by "
                                    + issueUrl.toString());
-            } catch (MalformedURLE
+            } catch (MalformedURLException e) {
+                checker.report(Result.failure(BAD_URL_KEY, suppressedString, anno.issue()), elt);
+ 
