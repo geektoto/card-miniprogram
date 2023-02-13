@@ -198,4 +198,6 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
             // from cheating by putting in empty string, etc.
             try {
                 final URL issueUrl = new URL(anno.issue());
-                System.out.println("Suppressing warnin
+                System.out.println("Suppressing warning for "
+                                   + suppressedString
+                                   + " i
