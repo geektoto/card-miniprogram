@@ -200,4 +200,6 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
                 final URL issueUrl = new URL(anno.issue());
                 System.out.println("Suppressing warning for "
                                    + suppressedString
-                                   + " i
+                                   + " is approved by "
+                                   + issueUrl.toString());
+            } catch (MalformedURLE
