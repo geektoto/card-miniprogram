@@ -204,4 +204,9 @@ public class CryptoPolicyComplianceVisitor extends BaseTypeVisitor {
                                    + issueUrl.toString());
             } catch (MalformedURLException e) {
                 checker.report(Result.failure(BAD_URL_KEY, suppressedString, anno.issue()), elt);
- 
+            }
+            return true;
+        }
+        return false;
+    }
+}
