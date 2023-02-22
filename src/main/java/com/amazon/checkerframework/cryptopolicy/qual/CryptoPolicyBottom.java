@@ -12,4 +12,7 @@ import org.checkerframework.framework.qual.TargetLocations;
 import org.checkerframework.framework.qual.TypeUseLocation;
 
 /**
- * Bottom an
+ * Bottom annotation for {@link CryptoWhiteListed} and {@link CryptoBlackListed} without args.
+ */
+@Documented
+@Retent
