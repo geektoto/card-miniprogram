@@ -15,4 +15,6 @@ import org.checkerframework.framework.qual.TypeUseLocation;
  * Bottom annotation for {@link CryptoWhiteListed} and {@link CryptoBlackListed} without args.
  */
 @Documented
-@Retent
+@Retention(RetentionPolicy.RUNTIME)
+@Target({ElementType.TYPE_USE, ElementType.TYPE_PARAMETER})
+@SubtypeOf({CryptoBlackListed
