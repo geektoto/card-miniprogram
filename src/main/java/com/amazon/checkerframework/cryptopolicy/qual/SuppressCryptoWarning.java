@@ -7,4 +7,5 @@ import java.lang.annotation.Target;
 
 import org.checkerframework.framework.qual.SubtypeOf;
 import static java.lang.annotation.ElementType.CONSTRUCTOR;
-im
+import static java.lang.annotation.ElementType.FIELD;
+import static java.lang.annotation.ElementType.LOCAL_
