@@ -14,4 +14,8 @@ import static java.lang.annotation.ElementType.PARAMETER;
 import static java.lang.annotation.ElementType.TYPE;
 
 /**
- * Annotation to suppress crypto warnings if a re
+ * Annotation to suppress crypto warnings if a relevant issue it provided
+ */
+@Documented
+@Retention(RetentionPolicy.SOURCE)
+@Target({TYPE, FIELD, METHOD, P
