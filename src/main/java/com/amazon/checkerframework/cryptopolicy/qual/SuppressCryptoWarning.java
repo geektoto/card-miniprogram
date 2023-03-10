@@ -10,4 +10,8 @@ import static java.lang.annotation.ElementType.CONSTRUCTOR;
 import static java.lang.annotation.ElementType.FIELD;
 import static java.lang.annotation.ElementType.LOCAL_VARIABLE;
 import static java.lang.annotation.ElementType.METHOD;
-import static java.lang.annotation.ElementType.PARAME
+import static java.lang.annotation.ElementType.PARAMETER;
+import static java.lang.annotation.ElementType.TYPE;
+
+/**
+ * Annotation to suppress crypto warnings if a re
