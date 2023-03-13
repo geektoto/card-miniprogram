@@ -18,4 +18,8 @@ import static java.lang.annotation.ElementType.TYPE;
  */
 @Documented
 @Retention(RetentionPolicy.SOURCE)
-@Target({TYPE, FIELD, METHOD, P
+@Target({TYPE, FIELD, METHOD, PARAMETER, CONSTRUCTOR, LOCAL_VARIABLE})
+@SubtypeOf({})
+public @interface SuppressCryptoWarning {
+    /**
+     *
