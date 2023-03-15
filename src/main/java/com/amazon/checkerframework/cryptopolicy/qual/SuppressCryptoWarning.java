@@ -23,4 +23,7 @@ import static java.lang.annotation.ElementType.TYPE;
 public @interface SuppressCryptoWarning {
     /**
      * The issue URL (e.g. github or jira) where the suppress warning was discussed with security.
-     * @return UR
+     * @return URL of an issue.
+     */
+    String issue();
+}
