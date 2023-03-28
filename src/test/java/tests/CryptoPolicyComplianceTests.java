@@ -22,4 +22,7 @@ public class CryptoPolicyComplianceTests extends CheckerFrameworkPerDirectoryTes
     }
 
     @Parameters
-    public 
+    public static String[] getTestDirs() {
+        return new String[]{TEST_DATA_SUBDIR_NAME};
+    }
+}
