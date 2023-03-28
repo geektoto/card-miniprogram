@@ -9,4 +9,8 @@ import org.junit.runners.Parameterized.Parameters;
  */
 public class CryptoPolicyComplianceTests extends CheckerFrameworkPerDirectoryTest {
 
-    private static final String TEST_D
+    private static final String TEST_DATA_SUBDIR_NAME = "crypto-policy";
+
+    public CryptoPolicyComplianceTests(List<File> testFiles) {
+        super(
+     
