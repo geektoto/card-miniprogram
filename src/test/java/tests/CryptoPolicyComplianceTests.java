@@ -7,4 +7,6 @@ import org.junit.runners.Parameterized.Parameters;
 /**
  * Test runner that uses the Checker Framework's tooling.
  */
-p
+public class CryptoPolicyComplianceTests extends CheckerFrameworkPerDirectoryTest {
+
+    private static final String TEST_D
