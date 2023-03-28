@@ -14,4 +14,6 @@ public class CryptoPolicyComplianceTests extends CheckerFrameworkPerDirectoryTes
     public CryptoPolicyComplianceTests(List<File> testFiles) {
         super(
             testFiles,
-            com.amazon.checkerframework.cryptopolicy.CryptoPolicyComplianceChecker.cl
+            com.amazon.checkerframework.cryptopolicy.CryptoPolicyComplianceChecker.class,
+            TEST_DATA_SUBDIR_NAME,
+            "-Anomsgtext",  // don't print error text, just the key. Us
