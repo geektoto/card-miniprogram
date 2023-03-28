@@ -16,4 +16,10 @@ public class CryptoPolicyComplianceTests extends CheckerFrameworkPerDirectoryTes
             testFiles,
             com.amazon.checkerframework.cryptopolicy.CryptoPolicyComplianceChecker.class,
             TEST_DATA_SUBDIR_NAME,
-            "-Anomsgtext",  // don't print error text, just the key. Us
+            "-Anomsgtext",  // don't print error text, just the key. Used to compare against expected val
+            "-nowarn",
+            "-Astubs=stubs");
+    }
+
+    @Parameters
+    public 
