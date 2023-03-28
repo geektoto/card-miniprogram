@@ -13,4 +13,5 @@ public class CryptoPolicyComplianceTests extends CheckerFrameworkPerDirectoryTes
 
     public CryptoPolicyComplianceTests(List<File> testFiles) {
         super(
-     
+            testFiles,
+            com.amazon.checkerframework.cryptopolicy.CryptoPolicyComplianceChecker.cl
