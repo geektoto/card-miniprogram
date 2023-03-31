@@ -18,3 +18,13 @@ public class WarningsTests extends CheckerFrameworkPerDirectoryTest {
             com.amazon.checkerframework.cryptopolicy.CryptoPolicyComplianceChecker.class,
             TEST_DATA_SUBDIR_NAME,
             "-Anomsgtext",  // don't print error text, just the key.
+            "-Anocheckjdk",
+            "-nowarn",
+            "-Astubs=stubs");
+    }
+
+    @Parameters
+    public static String[] getTestDirs() {
+        return new String[]{TEST_DATA_SUBDIR_NAME};
+    }
+}
