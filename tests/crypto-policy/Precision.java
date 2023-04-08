@@ -9,3 +9,8 @@ import javax.crypto.Cipher;
 public class Precision {
 
     private static final String BAD_CIPHER = "des";
+    private static final String GOOD_CIPHER = "AESWrap";
+
+    static void shouldFail() throws Exception {
+
+        badString("passing
