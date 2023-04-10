@@ -13,4 +13,11 @@ public class Precision {
 
     static void shouldFail() throws Exception {
 
-        badString("passing
+        badString("passingBadString");
+
+        badString(BAD_CIPHER);
+
+        requiresAnnotation(GOOD_CIPHER);
+    }
+
+    static v
