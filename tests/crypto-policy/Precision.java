@@ -20,4 +20,6 @@ public class Precision {
         requiresAnnotation(GOOD_CIPHER);
     }
 
-    static v
+    static void badString(final String badCipher) throws Exception {
+        // :: error: (crypto.cipher.unknown)
+        Ciphe
