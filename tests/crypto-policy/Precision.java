@@ -26,4 +26,8 @@ public class Precision {
     }
 
     static void requiresAnnotation(final String goodCipher) throws Exception {
-  
+        // :: error: (crypto.cipher.unknown)
+        Cipher.getInstance(goodCipher);
+    }
+
+}
